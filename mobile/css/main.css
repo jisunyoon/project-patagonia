@@ -361,6 +361,7 @@ footer .sns-icon{
 /* --------------- scrolltalk --------------*/
 .scrolltalk{
     position:fixed;
+    z-index:10;
     background:#292929;
     border-radius: 50%;
     width:49px;
