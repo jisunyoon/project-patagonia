@@ -3,10 +3,10 @@
 
 
 /*------------------ Layout -------------------*/
-
+button{-webkit-appearance:none;}
 button:not(header button){
-    background-color: #292929;
-    font-weight: bold;
+    background-color:#292929;
+    font-weight:bold;
     color:#fff;
     width:166px;
     height:40px;
@@ -23,8 +23,8 @@ hr{
 input{
     border:none;
     border-bottom:1px solid #999999;
-    outline: none;
-
+    outline:none;
+    -webkit-appearance:none;
 }
 input:focus{
     outline:none;
