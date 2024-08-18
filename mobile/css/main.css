@@ -3,7 +3,12 @@
 
 
 /*------------------ Layout -------------------*/
-button{-webkit-appearance:none;}
+button{
+    color:inherit;
+    -webkit-appearance:none;
+    background:none;
+    border:none;
+}
 button:not(header button){
     background-color:#292929;
     font-weight:bold;
@@ -416,6 +421,9 @@ footer .sns-icon{
     display:flex;
     justify-content: flex-end;
     align-items: center;
+}
+.popup input{
+    background:#eee;
 }
 /*-----------------------------------------------
 Subpage
